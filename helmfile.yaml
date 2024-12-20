@@ -1,6 +1,6 @@
 repositories:
   - name: alpine
-    url: https://artifacthub.io/packages/container/jitesoft-alpine/alpine
+    url: quay.io/jitesoft/alpine
 
 releases:
   - name: hello-world
