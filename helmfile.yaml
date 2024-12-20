@@ -1,6 +1,6 @@
 repositories:
   - name: alpine
-    url: https://charts.helm.sh/stable
+    url: https://artifacthub.io/packages/container/jitesoft-alpine/alpine
 
 releases:
   - name: hello-world
