@@ -16,7 +16,7 @@ repositories:
 
 releases:
 - name: prom-norbac-ubuntu
-  namespace: prometheus
+  namespace: argo
   chart: prometheus-community/prometheus
   set:
   - name: rbac.create
