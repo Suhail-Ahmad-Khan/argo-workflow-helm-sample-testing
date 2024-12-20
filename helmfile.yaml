@@ -1,16 +1,11 @@
 repositories:
-  - name: bitnami
-    url: https://charts.bitnami.com/bitnami
+  - name: alpine
+    url: https://charts.helm.sh/stable
 
 releases:
-  - name: my-nginx-server
-    namespace: argo
-    chart: bitnami/nginx
-    version: ~14.0.0
+  - name: hello-world
+    namespace: default
+    chart: alpine/alpine
+    version: 1.0.0  # Specify the version of the Alpine chart
     values:
-      - image:
-          repository: bitnami/nginx
-          tag: latest
-      - service:
-          type: ClusterIP
-          port: 80
+      - values.yaml  # Reference to a values file for custom configurations
