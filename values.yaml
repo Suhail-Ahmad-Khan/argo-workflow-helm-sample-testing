@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: alpine
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+command: ["sh", "-c"]
+args: ["echo 'Hello, World!' && sleep 3600"]  # Keeps the pod running for a while
+
+resources: {}
