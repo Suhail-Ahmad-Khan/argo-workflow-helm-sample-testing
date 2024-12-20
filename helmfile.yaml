@@ -4,7 +4,7 @@ repositories:
 
 releases:
   - name: hello-world
-    namespace: default
+    namespace: argo
     chart: alpine/alpine
     version: 1.0.0  # Specify the version of the Alpine chart
     values:
