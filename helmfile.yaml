@@ -1,12 +1,12 @@
 repositories:
-  - name: jitesoft
-    url: https://jitesoft.github.io/helm-charts  # Jitesoft's Helm chart repository
+  - name: wenerme
+    url: https://charts.wener.tech # Jitesoft's Helm chart repository
 
 releases:
-  - name: alpine
+  - name: wenerme
     namespace: argo
-    chart: jitesoft/alpine  # The chart name from the repository
-    version: latest  # Specify the desired version of the chart
+    chart: wenerme/alpine  # The chart name from the repository
+    version: 1.0.0  # Specify the desired version of the chart
     values:
       - values.yaml  # Reference to a values file for custom configurations
 
