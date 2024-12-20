@@ -5,7 +5,7 @@ repositories:
 releases:
   - name: hello-world
     namespace: argo
-    chart: alpine/alpine
-    version: 1.0.0  # Specify the version of the Alpine chart
+    chart: jitesoft/alpine
+    version: latest  # Specify the version of the Alpine chart
     values:
       - values.yaml  # Reference to a values file for custom configurations
